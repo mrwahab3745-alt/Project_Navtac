@@ -1,0 +1,251 @@
+.navbar{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    background-color: whitesmoke;
+}
+.navbar img{
+    margin-left: 50px;
+}
+.navbar ul{
+    float: left;
+    margin-left: 50px;
+    margin-right: 10px;
+    display: flex;
+    list-style: none;
+}
+.navbar ul li{
+    margin: 5px;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.navbar ul li a:hover{
+    color: rgb(44, 214, 252);
+}
+.content{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgb(0, 0, 0.7)), url("./Assets/web BG.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    height: 60vh;
+    padding: 100px;
+    color: white;
+}
+.content h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.highlight{
+    color: tomato;
+}
+.About{
+    text-align: center;
+    margin-top: 0px;
+    color: rgb(44, 214, 252);
+}
+.About h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.About .p{
+    margin: 0px 50px;
+    text-align: justify;
+    color: black;
+}
+.Portfolio{
+    text-align: center;
+    margin-top: 0px;
+    color: rgb(44, 214, 252);
+}
+.Portfolio h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.Images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 0px 50px;
+} 
+.Images img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.portfolio img{
+    transform: scale(1.1);      
+    transition: all 0.5s ease; 
+}
+
+.portfolio img:hover{
+    transform: scale(1);        
+}
+.services{
+    text-align: center;
+    margin-top: 0px;
+    color: rgb(44, 214, 252);
+}
+.services h1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.left img{
+    height: 500px;
+    margin: 0px 50px;
+    float: left;
+}
+
+.right{
+    margin: 0px 50px;
+    width: 50%;
+    float: right;
+}
+.clear{
+    clear: both;
+}
+
+.progress{
+    width: 100%;
+    height: 20px;
+    background: #ddd;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.bar1{
+    height: 100%;
+    background: rgb(62, 185, 62);
+}
+.bar2{
+    height: 100%;
+    background: rgb(65, 164, 203);
+    width: 80%;
+}
+.bar3{
+    height: 100%;
+    background: rgb(230, 230, 29);
+    width: 90%;
+}
+.bar4{
+    height: 100%;
+    background: rgb(209, 32, 32);
+    width: 70%;
+}
+.team-section{
+    width: 100%;
+    margin: 0px 50px;
+    text-align: center;
+}
+.team-section h1{
+    color: rgb(44, 214, 252);
+    margin: 0;
+    padding: 20px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 60px 40px;
+}
+
+.cards .card{
+    background: #eee;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.cards .card img{
+    display: block;
+    margin: 0 auto 10px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.cards .card h4{
+    color: #333;
+    margin: 10px 0;
+}
+.cards .card p{
+    color: #555;
+    line-height: 1.4;
+}
+.contact h1{
+    text-align: center;
+    color: rgb(44, 214, 252);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.contact form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0px;
+}
+.contact form input, .contact form textarea{
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.contact form button{
+    padding: 10px 20px;
+    background-color: rgb(44, 214, 252);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 90%;
+}
+.contact form button:hover{
+    background-color: rgb(25, 124, 137);
+}
+footer{
+    background-color: gray;
+    padding: 20px;
+    display: flex;
+}
+footer h1{
+    color: white;
+    margin: 0px 50px;
+}
+.footer ul{
+    color: white;
+    float: left;
+    text-align: left;
+    margin: 10px;
+    list-style: none;
+}
+.footer ul li a{
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+}
+.footer ul li a:hover{
+    color: rgb(44, 214, 252);
+}
+.address{
+    color: white;
+    float: right;
+    text-align: left;
+    margin: 10px;
+}
